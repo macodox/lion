@@ -1,6 +1,3 @@
-
-
-
 // Constants
 var SYSTEM_URL = "http://v4.v3store.com";
 
