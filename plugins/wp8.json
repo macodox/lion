@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "config.xml": {
+            "/*": {
+                "<feature name=\"File\"><param name=\"wp-package\" value=\"File\" /></feature>": 1,
+                "<feature name=\"Capture\"><param name=\"wp-package\" value=\"Capture\" /></feature>": 1
+            }
+        },
+        "Properties/WMAppManifest.xml": {
+            "/Deployment/App/Capabilities": {
+                "<Capability Name=\"ID_CAP_MEDIALIB_AUDIO\" />": 1,
+                "<Capability Name=\"ID_CAP_MEDIALIB_PHOTO\" />": 1,
+                "<Capability Name=\"ID_CAP_MEDIALIB_PLAYBACK\" />": 1,
+                "<Capability Name=\"ID_CAP_MICROPHONE\" />": 1,
+                "<Capability Name=\"ID_CAP_ISV_CAMERA\" />": 1
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.media-capture": {
+            "PACKAGE_NAME": "{65DBCD29-4723-4802-BB16-C438D999040F}"
+        }
+    },
+    "dependent_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "{65DBCD29-4723-4802-BB16-C438D999040F}"
+        }
+    }
+}

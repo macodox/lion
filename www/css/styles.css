@@ -1,0 +1,356 @@
+// IE bug fix for bootstrap
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+
+/***** STRUCTURE *****/
+ * {
+     /*vertical-align: middle;*/
+ }
+ 
+ body { 
+	background-color: #fcfcfc; /*#fcfcfc; #faf9fd;*/
+        margin-top: 75px;
+
+ }
+ 
+ nav {
+     z-index: 1000;
+     position: absolute;
+ }
+ 
+ .hidden {
+     display: none;
+ }
+ 
+ #wall-content {
+     margin-top: 10px;
+ }
+ 
+ img {
+     border:1px solid #e5e5e5;
+ }
+ 
+ hr {
+     height: 1px;
+     border: none;
+     border-top: 1px solid #dddddd;
+     margin: 0;
+     padding: 0;
+ }
+ 
+input, select, textarea {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+.placeholder {
+    color: #aaaaaa;
+}
+ 
+.modal, .modal.fade.in {
+    top: 0; /* was 10% */
+}
+        
+#busy {
+    margin-left: 10px;
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+form {
+    display: inline;
+}
+
+.alert {
+    margin-top: 5px;
+}
+
+table {
+    width: 100%;
+    
+}
+
+a {
+    cursor: pointer;
+}        
+	
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: black 0.02em 0.02em;
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+}
+
+.h1 {
+        font-weight: bold;
+        font-size: 1.8em;
+
+    }
+.h2 {
+        font-weight: bold;
+        font-size: 1.3em;
+
+    }
+ 
+.store-logo {
+        color: #000000;
+       	/*text-shadow: #111111 0.04em 0.04em;*/
+	font-family:Georgia,Arial,Helvetica,sans-serif; 
+        -webkit-font-smoothing: antialiased;
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+
+.notification-nonread *, 
+.notification-nonread:link, 
+.notification-nonread:visited, 
+.notification-nonread:active {
+    color: #aaaaaa;
+}
+
+.information {
+    font-style: italic;
+    font-size: 0.7em;
+    margin-bottom: 5px;
+}
+
+#home-button {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.search-box {
+    position: relative;
+    text-align: right;
+    width: 100%; 
+}
+
+.search-box input, form .comment-box {
+     width: 100%; 
+     padding: 10px;
+     height: 3em;
+     box-sizing: border-box; 
+ }
+
+.search-box .btn {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding: 10px;
+        margin-right: 0px;
+}
+
+.hashtag-panel {
+    margin-right: 15px;
+}
+
+.comment {
+    background-color: #ffffff;
+    margin: 2px 0 2px 0;
+    padding: 3px 3px;
+    border: 1px solid #eeeeee;
+}
+
+.timeago {
+    margin-left: 0px;
+}
+
+.profile-picture-micro {
+    width: 40px;
+    border: 1px solid #eeeeee;
+}
+
+.profile-picture-small {
+    width: 80px;
+    border: 1px solid #eeeeee;
+}
+
+.profile-picture-large {
+    width: 250px;
+    border: 1px solid #eeeeee;
+}
+
+.product-picture {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    width: 250px;
+    border: 1px solid #eeeeee;
+}
+
+.content {
+	/*font-size: 1.1em;
+	line-height: 1.8em;*/
+	}
+	
+.content p {
+	/*font-size: 1.0em;
+	line-height: 1.8em;
+	margin-bottom: 1.1em;*/
+	}
+       
+#tagline .h2 {
+    margin-left: 1.0em;
+}         
+
+/***** BODY *****/
+	
+.page-title {
+	padding: 100px 0 30px 0;
+	}
+	
+.arrow-top img {
+	margin: -7px 0 0 15px;
+	}
+
+
+	
+/***** NAVIGATION BAR *****/
+.navbar * {
+    color: #dddddd;
+}
+.navbar-brand .reg {
+    font-size: 0.65em;
+    top:-0.5em;
+    position: relative;
+    margin-left: 3px;
+}
+
+.notification-total {
+    font-size: 0.9em;
+    top: -0.8em;
+    left: 1.1em;
+    position: absolute;
+    margin-left: 0px;
+    color: #31b0d5;
+}
+.message-total {
+    font-size: 0.9em;
+    top: -0.8em;
+    left: 1.1em;
+    position: absolute;
+    margin-left: 0px;
+    color: #31b0d5;
+}
+
+.navbar-brand {
+	font-weight: normal;
+	font-size: 1.2em;
+        color: #ffffff;
+}
+
+.nav-icons {
+    font-size: 0.8em;
+}
+.nav-icons {
+    margin-left: 0px;
+}
+.nav-icons .icon {
+    position: relative;
+    margin-left: 20px;
+} 
+
+
+
+
+
+	
+/***** LOGIN *****/
+#login-button-holder button {
+        margin-right: 10px;
+}
+
+
+/***** FOOTER *****/
+
+.footer {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	padding: 15px 0;
+	border-top: 1px solid #CCC;
+}
+      
+    
+.thread-media {
+        margin: 3px 0 3px 0;
+        width: auto;
+        max-width: 250px;
+        height: auto;
+        max-height: 200px;
+        padding: 0;
+}    
+.thread-liked {
+        margin: 0 0 5px 5px;
+        border: 1px dashed #cccccc;
+        padding: 5px;
+}   
+        
+  
+        
+
+@media (min-width:0px) {
+    .img-main {
+        max-width: 300px;
+    }
+    
+} 
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) {
+    .h1 {
+        font-size: 3em;
+        margin: 15px 0 10px 0;
+    }
+    .h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    
+    .img-main {
+        max-width: 100%;
+    }
+    
+} 
+
+
+/* Large desktop */
+/*
+@media (min-width: 768px) {
+    #product-image img {
+        width: 350px;
+        padding: 0 50px 100px 0;
+    }
+    #product-image {
+        float: left;
+    }
+    */
+    /*
+    .navbar-brand .notification-total {
+        display: none;  980 er stor
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .h1 {
+        margin-top: 50px;
+    }
+    
+    #product-image img {
+        width: 500px;
+        padding: 0 50px 0 0;
+    }
+    #product-image {
+        padding-bottom: 75px;
+    }
+    
+    #content {
+        margin-top: 60px;
+    }
+}      */  

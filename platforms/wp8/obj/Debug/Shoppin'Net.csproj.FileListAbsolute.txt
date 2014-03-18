@@ -1,0 +1,15 @@
+d:\www\lion\platforms\wp8\Bin\Debug\ApplicationIcon.png
+d:\www\lion\platforms\wp8\Bin\Debug\Background.png
+d:\www\lion\platforms\wp8\Bin\Debug\com.shoppinnet.app.dll
+d:\www\lion\platforms\wp8\Bin\Debug\com.shoppinnet.app.pdb
+D:\www\lion\platforms\wp8\Bin\Debug\AppManifest.xaml
+D:\www\lion\platforms\wp8\Bin\Debug\com.shoppinnet.app.xap
+D:\www\lion\platforms\wp8\obj\Debug\App.g.cs
+D:\www\lion\platforms\wp8\obj\Debug\Plugins\org.apache.cordova.media-capture\AudioRecorder.g.cs
+D:\www\lion\platforms\wp8\obj\Debug\Plugins\org.apache.cordova.media-capture\VideoRecorder.g.cs
+D:\www\lion\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+D:\www\lion\platforms\wp8\obj\Debug\MainPage.g.cs
+d:\www\lion\platforms\wp8\obj\Debug\com.shoppinnet.app.g.resources
+d:\www\lion\platforms\wp8\obj\Debug\com.shoppinnet.app.dll
+d:\www\lion\platforms\wp8\obj\Debug\com.shoppinnet.app.pdb
+D:\www\lion\platforms\wp8\obj\Debug\XapCacheFile.xml
